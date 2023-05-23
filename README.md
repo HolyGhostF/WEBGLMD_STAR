@@ -18,7 +18,8 @@
 黑塔
 洛天依
 其他动作，声音
-作者: @author zigjiang anqila
+作者: 
+@author zigjiang anqila
 
 # 相关链接
 [https://github.com/takahirox/mmd-viewer-js]
