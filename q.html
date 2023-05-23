@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+        body {
+            overflow: auto;
+            height: 100%;
+        }
+        body {
+            background-color: #fff;
+            font-size: .24rem;
+            height: 100%;
+            position: relative;
+            width: 100%;
+            overflow-y: hidden;
+        }
+        ._1NVi6w4R {
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+        .home-pv.custom-mihoyo-common-mask {
+            position: relative;
+        }
+        ._1NVi6w4R>* {
+            pointer-events: auto;
+        }
+        .home-pv-iframe {
+            width: 76.2rem;
+            height: 30.2rem;
+        }
+        *, *::before, *::after {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        }
+        .bbody {
+            overflow: auto;
+            height: 100%;
+            background-color: #fff;
+            font-size: .24rem;
+            height: 100%;
+            position: relative;
+            width: 100%;
+            overflow-y: hidden;
+        }
+        #b_body {
+            box-sizing: border-box; padding-right: 0px; padding-bottom: 0px; overflow: hidden;
+            width: 100px;
+            height: 100px;
+            border-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div id="b_body"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
+            var b_body = document.querySelector('#b_body');
+            b_body.addEventListener('click', function() {
+                    console.log(11);
+                    var newdiv = $(`<div class="home-pv _1NVi6w4R custom-mihoyo-common-mask" style="background-color: rgba(0, 0, 0, 0.9); position: fixed; z-index: 99999; animation-duration: 250ms; transition-duration: 250ms;">
+        <div class="custom-mihoyo-common-container" style="animation-duration: 250ms; transition-duration: 250ms;">
+            <div class="home-pv-close"></div> 
+            <iframe src="./idnex.html" frameborder="0" width="100%" height="100%" class="home-pv-iframe"></iframe>
+        </div>
+    </div>`)
+                    $(b_body).append(newdiv);
+                    
+            })
+        })
+    </script>
+</body>
+</html>
