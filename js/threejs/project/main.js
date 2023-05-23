@@ -966,8 +966,10 @@
                   "position":"fixed",
                   "top":"0px",
                   "left":"0px",
-                  "width":window.innerWidth+"px",
-                  "height":screen.height+"px",
+                //   "width":window.innerWidth+"px",
+                  "width":$(document).width(),
+                //   "height":screen.height+"px",
+                  "height":$(document).height(),
                   "z-index":"99999",
                   "border-radius":"0px",
                   
@@ -1015,12 +1017,6 @@
         //退出全屏
         function exitFullscreen() {
              var de = document;
-             // 在退出全屏前判断 document.fullscreenElement !== null
-            //  if (document.fullscreenElement !== null) {
-            //     document.exitFullscreen();
-            //  }
-            // console.log(de.exitFullscreen);
-            console.log(document.mozCancelFullScreen);
              if (de.exitFullscreen) {
                  de.exitFullscreen();
              } else if (de.mozCancelFullScreen) {

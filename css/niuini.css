@@ -74,6 +74,7 @@ body {
     height: auto;
     z-index:1;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .controlerPause{
