@@ -190,6 +190,12 @@
         var motionFiles = ["http://file.niuini.com/motion/201904202121169044.vmd"];
         var cameraFiles = ["http://file.niuini.com/camera/201904202121539841.vmd"];
         var audioFile =    "http://file.niuini.com/audio/201904202132351044.mp3";
+        let cardF = window.parent.document.querySelectorAll('.card');
+        cardF.forEach(card => {
+            card.children('a').addEventListener('click', function() {
+                
+            })
+        })
     </script>
     <script src="https://unpkg.com/anqila-webgl-star@1.0.0/js/threejs/project/main.js"></script>
     <!-- <script src="./js/threejs/main.js"></script> -->
