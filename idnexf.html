@@ -18,11 +18,40 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        #overlay {
+            position: absolute;
+            font-size: 16px;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: rgba(0,0,0,0.7);
+        }
+        #overlay button {
+            background: transparent;
+            border: 0;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 4px;
+            color: #ffffff;
+            padding: 12px 18px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    </style>
 
 </head>
 
-<body>
+<body style="overscroll-behavior: none;">
 <script src="https://unpkg.com/anqila-webgl-star@1.0.2/js/jquery.min.js"></script>
+<div id="overlay">
+    <button id="startButton">Play</button>
+</div>
 <div id="wrap">
 
         
@@ -127,7 +156,7 @@
 </div>
     
     <!-- footer -->
-
+    <script src="js/newindex.js"></script>
     <script src="https://cdn.bootcdn.net/ajax/libs/flat-ui/2.3.0/js/flat-ui.min.js"></script>
 
     <script src="https://unpkg.com/anqila-webgl-star@1.0.0/js/layer.js"></script>
