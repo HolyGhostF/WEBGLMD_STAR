@@ -1056,6 +1056,8 @@
         //
         //---------------------------------------------------------
         
-        window.onload = Init();
-        window.addEventListener('resize', HandleResize, false);
+        function LoadMMDFileInit() {
+            window.onload = Init();
+            window.addEventListener('resize', HandleResize, false);
+        }
     
