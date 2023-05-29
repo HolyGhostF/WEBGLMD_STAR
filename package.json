@@ -1,6 +1,6 @@
 {
   "name": "anqila-webgl-star",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "anqila webgl star",
   "main": "index.js",
   "scripts": {
