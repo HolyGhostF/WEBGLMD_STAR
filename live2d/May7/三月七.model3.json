@@ -10,7 +10,7 @@
 		"DisplayInfo": "三月七.cdi3.json",
 		"Expressions": [
 			{"Name":"1","File":"exp/1.exp3.json"},
-			{"Name":"2","File":"exp/F02.exp3.json"},
+			{"Name":"2","File":"exp/2.exp3.json"},
 			{"Name":"3","File":"exp/3.exp3.json"},
 			{"Name":"4","File":"exp/4.exp3.json"},
 			{"Name":"5","File":"exp/5.exp3.json"},
@@ -19,6 +19,16 @@
 			{"Name":"8","File":"exp/8.exp3.json"},
 			{"Name":"9","File":"exp/9.exp3.json"},
 		],
+		"Motions": {
+			"idle": [
+				{
+				  "File": "motions/zhaiyan.motion3.json"
+				},
+				{
+				  "File": "motions/zhaoxiang.motion3.json"
+				},
+			]
+		}
 	},
 	"Groups": [
 		{
@@ -35,14 +45,4 @@
 			"Ids": []
 		}
 	],
-	"Motions": {
-		"": [
-			{
-			  "File": "motions/zhaiyan.motion3.json"
-			},
-			{
-			  "File": "motions/zhaoxiang.motion3.json"
-			},
-		]
-	}
 }
