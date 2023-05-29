@@ -1,0 +1,357 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "嘴巴开闭"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "手x"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "手y"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "体x"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "体y"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "飘带x"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "飘带y"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "飘带z"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "头发x"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "头发y"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "头发1x"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "头发1y"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "头发2x"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "",
+			"Name": "头发2y"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "",
+			"Name": "头发3x"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "",
+			"Name": "头发3y"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "",
+			"Name": "头发4x"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "",
+			"Name": "头发4y"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "",
+			"Name": "头发5x"
+		},
+		{
+			"Id": "Param20",
+			"GroupId": "",
+			"Name": "头发5y"
+		},
+		{
+			"Id": "Param21",
+			"GroupId": "",
+			"Name": "头发6x"
+		},
+		{
+			"Id": "Param22",
+			"GroupId": "",
+			"Name": "头发6y"
+		},
+		{
+			"Id": "Param23",
+			"GroupId": "",
+			"Name": "袖口x"
+		},
+		{
+			"Id": "Param24",
+			"GroupId": "",
+			"Name": "袖口y"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左眼　微笑"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右眼　微笑"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "脸颊泛红"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "身体旋转　X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "身体旋转　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "身体旋转　Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "摇动 前发"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "摇动 侧发"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "摇动 后发"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "组 4"
+		},
+		{
+			"Id": "Part2",
+			"Name": "组 1"
+		},
+		{
+			"Id": "Part4",
+			"Name": "组 3"
+		},
+		{
+			"Id": "Part5",
+			"Name": "头发"
+		},
+		{
+			"Id": "Part6",
+			"Name": "左眼睛"
+		},
+		{
+			"Id": "Part7",
+			"Name": "右眼睛"
+		},
+		{
+			"Id": "Part8",
+			"Name": "嘴巴"
+		},
+		{
+			"Id": "Part9",
+			"Name": "右手"
+		},
+		{
+			"Id": "ArtMesh27_Skinning",
+			"Name": "图层 36(蒙皮)"
+		},
+		{
+			"Id": "ArtMesh28_Skinning",
+			"Name": "图层 37(蒙皮)"
+		},
+		{
+			"Id": "ArtMesh31_Skinning",
+			"Name": "图层 38(蒙皮)"
+		},
+		{
+			"Id": "ArtMesh2_Skinning",
+			"Name": "图层 5(蒙皮)"
+		},
+		{
+			"Id": "ArtMesh3_Skinning",
+			"Name": "图层 9(蒙皮)"
+		},
+		{
+			"Id": "Part3",
+			"Name": "组 2"
+		},
+		{
+			"Id": "ArtMesh13_Skinning",
+			"Name": "图层 31(蒙皮)"
+		},
+		{
+			"Id": "ArtMesh14_Skinning",
+			"Name": "图层 30(蒙皮)"
+		},
+		{
+			"Id": "ArtMesh5_Skinning",
+			"Name": "图层 24(蒙皮)"
+		},
+		{
+			"Id": "ArtMesh6_Skinning",
+			"Name": "图层 25(蒙皮)"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"Param3",
+			"Param4"
+		],
+		[
+			"Param11",
+			"Param12"
+		],
+		[
+			"Param15",
+			"Param16"
+		],
+		[
+			"Param19",
+			"Param20"
+		],
+		[
+			"Param21",
+			"Param22"
+		]
+	]
+}

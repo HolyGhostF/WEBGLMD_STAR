@@ -1,0 +1,35 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "心海壁纸.moc3",
+		"Textures": [
+			"心海壁纸.4096/texture_00.png",
+			"心海壁纸.4096/texture_01.png",
+			"心海壁纸.4096/texture_02.png"
+		],
+		"Physics": "心海壁纸.physics3.json",
+		"DisplayInfo": "心海壁纸.cdi3.json",
+		"Motions": {
+			"": [
+				{
+					"File": "motions/idle 三循環.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
