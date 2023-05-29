@@ -1,0 +1,49 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Ganyu1024.moc3",
+		"Textures": [
+			"Ganyu1024.1024/texture_00.png",
+			"Ganyu1024.1024/texture_01.png",
+			"Ganyu1024.1024/texture_02.png"
+		],
+		"Physics": "Ganyu1024.physics3.json",
+		"DisplayInfo": "Ganyu1024.cdi3.json",
+		"Expressions": [
+			{"Name":"Arms cross in front of the chest","File":"Arms cross in front of the chest.exp3.json"},
+			{"Name":"Courtship pose","File":"Courtship pose.exp3.json"},
+			{"Name":"Fight","File":"Fight.exp3.json"},
+			{"Name":"Forked waist","File":"Forked waist.exp3.json"},
+			{"Name":"HighLight_Off","File":"HighLight_Off.exp3.json"},
+			{"Name":"Pointing finger","File":"Pointing finger.exp3.json"},
+			{"Name":"Seriously","File":"Seriously.exp3.json"},
+			{"Name":"Shock","File":"Shock.exp3.json"},
+			{"Name":"Shy","File":"Shy.exp3.json"},
+			{"Name":"Worry","File":"Worry.exp3.json"}
+		],
+		"Motions": {
+			"idle": [
+				{
+				  "File": "motions/Idle.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	]
+}
