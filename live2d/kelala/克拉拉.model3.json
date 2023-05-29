@@ -1,0 +1,70 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "克拉拉.moc3",
+		"Textures": [
+			"克拉拉.16384/texture_00.png"
+		],
+		"Physics": "克拉拉.physics3.json",
+		"DisplayInfo": "克拉拉.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "爱心眼",
+				"File": "爱心眼.exp3.json"
+			},
+			{
+				"Name": "吃惊",
+				"File": "吃惊.exp3.json"
+			},
+			{
+				"Name": "愤怒",
+				"File": "愤怒.exp3.json"
+			},
+			{
+				"Name": "脸黑",
+				"File": "脸黑.exp3.json"
+			},
+			{
+				"Name": "脸红",
+				"File": "脸红.exp3.json"
+			},
+			{
+				"Name": "脸红爱心眼",
+				"File": "脸红爱心眼.exp3.json"
+			},
+			{
+				"Name": "瞳孔缩小脸黑",
+				"File": "瞳孔缩小脸黑.exp3.json"
+			},
+			{
+				"Name": "问号",
+				"File": "问号.exp3.json"
+			},
+			{
+				"Name": "眼泪",
+				"File": "眼泪.exp3.json"
+			},
+			{
+				"Name": "一键三连",
+				"File": "一键三连.exp3.json"
+			}
+		],
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	]
+}
